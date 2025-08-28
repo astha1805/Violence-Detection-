@@ -1,0 +1,20 @@
+# --- Core PyTorch Framework ---
+# Use the versions that match your CUDA setup. 
+# Find the correct command here: https://pytorch.org/get-started/locally/
+torch
+torchvision
+torchaudio
+
+# --- Video & Image Processing ---
+# High-performance video reader, much faster than OpenCV for frame extraction
+
+# OpenCV is a general-purpose computer vision library, useful for other tasks
+opencv-python-headless
+
+# --- Utilities ---
+# A fast, extensible progress bar for loops
+tqdm
+# Library for creating static, animated, and interactive visualizations
+matplotlib
+seaborn
+numpy
