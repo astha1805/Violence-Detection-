@@ -40,8 +40,8 @@ def process_video(video_path, class_name, output_dir):
 def main():
     # ... (no changes needed in the main function) ...
     # --- Configuration ---
-    data_dir = "/Users/asthaparekh/MinorProject/dataset/punch"
-    output_dir = "/Users/asthaparekh/MinorProject/Gen_preprocessed_data/Punch"
+    data_dir = "/Users/asthaparekh/Desktop/NonViolence/Abc"
+    output_dir = "Gen_preprocessed_data/NonViolence"
     max_workers = os.cpu_count()
     # --- End Configuration ---
     
